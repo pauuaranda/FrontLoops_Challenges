@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    line-height: 19px;
+}
+
+body{
+    background-color: #85A5D4;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 80vw;
+    /*height: 250px;*/
+    padding: 3%;
+    margin-top: 20vh;
+    justify-content: center;
+    border-radius: 4px;
+    
+}
+
+.containArt{
+    display: inline-block;
+    flex-direction: column;
+    padding: 3%;
+    height: 80%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.containArt:hover{
+    background-color: rgba(189, 185, 185, 0.2);
+  /*  padding: 2%; 
+    margin: 2%; */
+    display: flex;
+    border-radius: 4px;
+}
+
+.titulos{
+    color:  rgb(6, 84, 209);
+    font-size: 1em;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.icon{
+    width: 70px;
+  
+}
+
+.art1, .art2, .art3{
+    align-self: center;
+    width: 33%;
+    display: inline-block;
+}
+
+.price{
+    color:  rgb(6, 84, 209);
+    margin-top: 4%;
+}
+.value {
+    font-size: 30px;
+    font-weight: 500;
+}
+  
+.currency {
+      font-size: 14px;
+}
+
